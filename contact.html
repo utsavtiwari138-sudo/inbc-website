@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — Indian National Brahman Council</title>
+    <meta name="description"
+        content="Get in touch with Indian National Brahman Council. Reach out for queries, suggestions, or support.">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="images/favicon.png" alt="INBC Logo">
+                <span>INBC</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="vision.html">Vision</a>
+                <a href="leadership.html">Leadership</a>
+                <a href="objectives.html">Objectives</a>
+                <a href="membership.html">Membership</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+    <div class="nav-overlay" id="navOverlay"></div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <span class="separator">/</span>
+                <span>Contact Us</span>
+            </div>
+            <h1>Contact Us</h1>
+            <p class="hindi" style="font-size:var(--fs-lg); color:var(--gold-light); margin-bottom:var(--space-md);">
+                संपर्क करें</p>
+            <p>We'd love to hear from you. Reach out with any questions, suggestions, or support.</p>
+            <hr>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="section">
+        <div class="container">
+            <div
+                style="display:grid; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); gap:var(--space-xl); margin-bottom:var(--space-4xl);">
+                <div class="contact-info-card fade-in">
+                    <div class="contact-info-icon">📍</div>
+                    <div>
+                        <h4>Head Office</h4>
+                        <p>Central Office, Connaught Place<br>New Delhi — 110001, India</p>
+                    </div>
+                </div>
+                <div class="contact-info-card fade-in">
+                    <div class="contact-info-icon">📞</div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 97946 70024<br>+91 97946 70024</p>
+                    </div>
+                </div>
+                <div class="contact-info-card fade-in">
+                    <div class="contact-info-icon">✉️</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>pandeysatyaprakesh@gmail.com<br>pandeysatyaprakesh@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-info-card fade-in">
+                    <div class="contact-info-icon">🕐</div>
+                    <div>
+                        <h4>Working Hours</h4>
+                        <p>Mon – Sat: 10:00 AM – 6:00 PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form & Map -->
+            <div class="contact-grid">
+                <div class="fade-in">
+                    <h2 style="font-size:var(--fs-xl); margin-bottom:var(--space-sm);">Send Us a Message</h2>
+                    <p style="color:var(--text-secondary); margin-bottom:var(--space-2xl);">Fill out the form and our
+                        team will get back to you within 24 hours.</p>
+                    <form data-validate>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ct-name">Your Name *</label>
+                                <input type="text" id="ct-name" class="form-control" placeholder="Full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ct-email">Email Address *</label>
+                                <input type="email" id="ct-email" class="form-control" placeholder="your@email.com"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ct-phone">Phone Number</label>
+                            <input type="tel" id="ct-phone" class="form-control" placeholder="+91 97946 70024">
+                        </div>
+                        <div class="form-group">
+                            <label for="ct-subject">Subject *</label>
+                            <select id="ct-subject" class="form-control" required>
+                                <option value="">Select a subject</option>
+                                <option>General Inquiry</option>
+                                <option>Membership Query</option>
+                                <option>Event Information</option>
+                                <option>Scholarship Query</option>
+                                <option>Grievance / Complaint</option>
+                                <option>Partnership / Collaboration</option>
+                                <option>Media / Press</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ct-message">Your Message *</label>
+                            <textarea id="ct-message" class="form-control" rows="5"
+                                placeholder="Write your message here..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" style="width:100%;">Send Message</button>
+                    </form>
+                </div>
+                <div class="fade-in-right">
+                    <h2 style="font-size:var(--fs-xl); margin-bottom:var(--space-sm);">Find Us</h2>
+                    <p style="color:var(--text-secondary); margin-bottom:var(--space-xl);">Visit us at our central
+                        office in New Delhi.</p>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.837742!2d77.21941!3d28.63299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d057%3A0xd56c!2sConnaught%20Place%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                            allowfullscreen loading="lazy" title="INBC Office Location">
+                        </iframe>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div style="margin-top:var(--space-2xl);">
+                        <h3 style="font-size:var(--fs-lg); margin-bottom:var(--space-lg);">Connect With Us</h3>
+                        <div class="footer-social" style="gap:var(--space-md);">
+                            <a href="#" aria-label="Facebook"
+                                style="width:50px;height:50px;font-size:1.4rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);color:var(--saffron);">📘</a>
+                            <a href="#" aria-label="Twitter"
+                                style="width:50px;height:50px;font-size:1.4rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);color:var(--saffron);">🐦</a>
+                            <a href="#" aria-label="Instagram"
+                                style="width:50px;height:50px;font-size:1.4rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);color:var(--saffron);">📸</a>
+                            <a href="#" aria-label="YouTube"
+                                style="width:50px;height:50px;font-size:1.4rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);color:var(--saffron);">🎬</a>
+                            <a href="#" aria-label="WhatsApp"
+                                style="width:50px;height:50px;font-size:1.4rem;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.2);color:var(--saffron);">💬</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>भारतीय राष्ट्रीय ब्राह्मण महासभा</h3>
+                    <p>Committed to the social, educational, and cultural advancement of the Brahman community across
+                        India.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="YouTube">🎬</a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="vision.html">Vision & Mission</a></li>
+                        <li><a href="leadership.html">Leadership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Get Involved</h4>
+                    <ul>
+                        <li><a href="membership.html">Membership</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="objectives.html">Objectives</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📍 New Delhi, India</li>
+                        <li>📞 +91 97946 70024</li>
+                        <li>✉️ pandeysatyaprakesh@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Indian National Brahman Council. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
